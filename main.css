@@ -1,0 +1,511 @@
+
+
+/* Nav Buttons */
+
+
+.nav-logo {
+    max-width: 22%;
+    max-height: 22%;
+
+}
+
+
+.navbar{
+    background-color: #69021C !important;
+    min-height: 75px;
+    display: flex;
+
+}
+
+
+.d-flex {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.nav-text {
+  color: #EEE8AA !important;
+
+}
+
+
+.column-title {
+  font-size: 20px;
+  font-style: italic;
+  color: #69021C;
+  text-align: center;
+
+}
+
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: white;
+
+}
+
+
+/* Nav Buttons */
+
+
+  .home {
+    font-family: avenir;
+
+  }
+
+
+/* Jumbotron */
+
+
+  .jumbotron {
+    background-image: url(img/BurgundyLouisville.png);
+    background-size: cover;
+    background-color: #69012C;
+    padding: 1em;
+    border-radius: 0;
+
+  }
+
+  .jumbotron2 {
+    background-image: url(img/MapPic2.png);
+    background-size: cover;
+    background-color: #69012C;
+    padding: 1em;
+    border-radius: 0;
+    min-height: 500px;
+
+  }
+
+  .jumbotron3 {
+    background-image: url(img/maintpic.png);
+    background-size: cover;
+    background-color: #69012C;
+    padding: 1em;
+    border-radius: 0;
+    min-height: 500px;
+
+  }
+
+  .jumbotron4 {
+    background-image: url(img/contactus.png);
+    background-size: cover;
+    background-color: #69012C;
+    padding: 1em;
+    border-radius: 0;
+    min-height: 500px;
+
+  }
+
+  .jumbo2txt {
+    font-weight: times;
+    font-size: 4em;
+
+  }
+
+
+/* Jumbotron */
+
+
+  hr {
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3px;
+  background-color:#EEE8AA;
+  opacity: 1;
+
+  }
+
+
+  .img {
+    max-width: 40%;
+    max-height: 100%;
+
+  }
+
+  .footer {
+     background-image: url(img/louisville-skyline-silhouette.png);
+     height: 100px;
+     max-width: 100%;
+     background-color: #69012C;
+     color: white;
+     font-style: italic;
+     text-align: right;
+     font-size: 11px;
+
+  }
+
+  .footword {
+    padding: 3px;
+
+  }
+
+  .footer-logo {
+    padding-top: 10px;
+    max-width: 50%;
+    max-height: 50%;
+
+  }
+
+  .information, .container {
+    text-align:center;
+    max-width: 60em;
+
+  }
+
+  .c1 {
+   border-color: #69012C;
+   border-width: 2px;
+   width: 18em;
+
+  }
+
+  .card {
+    margin: auto;
+    border-color: #69012C;
+
+  }
+
+  .icon {
+    height: 30px;
+    width: 30px;
+
+  }
+
+  .phoneicon {
+    height: 25px;
+    weight: 25px;
+
+  }
+
+  .paralist {
+    margin: 20px;
+
+  }
+
+  .btnposition {
+  margin: 5px;
+
+  }
+
+  .questions {
+    color: #69012C;
+    font-size: 3em;
+    text-align: center;
+
+  }
+
+  .inputfield {
+    height: 10em;
+
+  }
+
+  .form {
+    width: 79%;
+
+  }
+
+  .btncolor {
+    background-color: #69012C;
+    border-color: #69012C;
+
+  }
+
+  .radius {
+    border-color: #69012C;
+    color: #69012C;
+
+  }
+
+/* For Rent List */
+
+  .media {
+    background:#fff;
+    position:relative;
+    margin-bottom:15px;
+
+    }
+
+  .media img {
+    width:200px;
+    margin:0;
+    height:136px;
+
+    }
+
+  .media-body {
+    border:1px
+    solid #69012C;
+    border-left:0;
+    height:136px;
+
+    }
+
+  .media .price {
+    float:left;
+    width:100%;
+    font-size:30px;
+    font-weight:600;
+    color:#69012C;
+
+    }
+
+  .media .price small {
+    display:block;
+    font-size:17px;
+    color:#232323;
+
+    }
+
+  .media .stats {
+    float:left;
+    width:100%;
+    margin-top:10px;
+
+    }
+
+  .media .stats span {
+    float:left;
+    margin-right:10px;
+    font-size:15px;
+
+    }
+
+  .media .stats span i {
+    margin-right:7px;
+    color:#4765AB;
+
+    }
+
+  .media .address {
+    float:left;
+    width:100%;
+    font-size:14px;
+    margin-top:5px;
+    color:#888;
+
+    }
+
+
+/* For Rent List */
+
+  .social a {
+    padding: 0 .5em;
+    color:  #69012C;
+  }
+
+  #accordion {
+    margin: 40px;
+  }
+
+
+/* Media Queries */
+
+
+/* Smartphone Display */
+
+
+@media screen and (max-width : 600px) {
+
+    .jumbotron {
+      background-image: url(img/BurgundyLouisville.png);
+      background-size: cover;
+      background-color: #69012C;
+      padding: 1px;
+
+    }
+
+    .jumbo-text {
+      font-size: 2em;
+      text-align: center;
+
+    }
+
+    .navbar-brand,
+    .brand  {
+      font-size: 1em;
+      color: #EEE8AA !important;
+
+    }
+
+    .navbar-default,
+    .navbar-toggler,
+    .navbar-collapse {
+        border-color: #EEE8AA !important;
+
+    }
+
+    .img {
+        max-width: 60%;
+        max-height: 60%;
+
+    }
+
+    .nav-logo {
+        max-width: 10%;
+        max-height: 10%;
+    }
+
+    .jumbotron2 {
+      min-height: 300px;
+    }
+
+    .jumbotron3 {
+      min-height: 300px;
+    }
+
+    .jumbotron4 {
+      min-height: 300px;
+    }
+
+    .c1 {
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 25px;
+      width: 16em;
+
+    }
+
+    #accordion {
+      margin: 20px;
+    }
+
+    .btnposition {
+      position: relative;
+      width: 150px;
+    }
+
+
+
+    .media img {
+      width:200px;
+      margin:0;
+      height:275px;
+
+    }
+
+    .media-body {
+      border:1px solid #69012C;
+      border-left:0;
+      height:275px;
+
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#EEE8AA' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+
+    }
+
+    .paralist {
+      padding: 0px 40px 0px 10px;
+
+    }
+
+    .media {
+      padding-bottom: 45px;
+
+    }
+
+    .smallfoot {
+      display: none;
+
+    }
+
+    .btm {
+      padding-top: 15px;
+
+    }
+
+    .footer {
+       background-image: url(img/louisville-skyline-silhouette.png);
+       height: 100px;
+       max-width: 100%;
+       background-color: #69012C;
+       color: white;
+       font-style: italic;
+       text-align: right;
+       font-size: 9px;
+
+    }
+
+    .form {
+      width: 90%;
+
+    }
+
+
+}
+
+
+/* Smartphone Display */
+
+
+/* Tablet Display */
+
+
+@media  (min-width : 600px) and (max-width : 1000px) {
+  .jumbo-text {
+    font-size: 1em;
+    text-align: center;
+
+  }
+
+  .navbar-brand,
+  .brand  {
+    font-size: 1em;
+    color: #EEE8AA !important;
+
+  }
+
+  .navbar-default,
+  .navbar-toggler,
+  .navbar-collapse {
+      border-color: #EEE8AA !important;
+
+  }
+
+  .navbar-toggler
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#EEE8AA' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+  }
+
+  .nav-logo {
+      max-width: 10%;
+      max-height: 10%;
+
+  }
+
+  .jumbo2txt {
+    font-weight: times;
+    font-size: 3em;
+
+  }
+
+  .c1 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    width: 16em;
+
+  }
+
+}
+
+
+/* Tablet Display */
+
+
+/* Desktop Display */
+@media screen and (min-width : 1020px) {
+
+  .nav-logo {
+      max-width: 70%;
+      max-height: 70%;
+
+  }
+
+}
